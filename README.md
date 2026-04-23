@@ -25,7 +25,7 @@ with configurable drift and strictly-positive diffusion parameterizations.
 
 ## Dependencies
 
-Python 3.11+ and:
+Python 3.10+ and:
 - pandas
 - numpy
 - scipy
@@ -35,6 +35,26 @@ Python 3.11+ and:
 - requests
 - pytest
 - yfinance (free data in v1)
+
+## Installation
+
+Minimal package install (no dependency resolution):
+
+```bash
+pip install -e . --no-deps
+```
+
+Full research stack (requires internet or local wheel cache):
+
+```bash
+pip install -e .[research]
+```
+
+For development tests:
+
+```bash
+pip install -e .[research,dev]
+```
 
 ## Data layer
 
