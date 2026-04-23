@@ -1,0 +1,11 @@
+{
+  "symbol": "AAPL",
+  "interval": "1h",
+  "series_mode": "log_close",
+  "rolling_window": 200,
+  "step": 10,
+  "dt": 1.0,
+  "drift_degree": 2,
+  "diff_degree": 1,
+  "diffusion_link": "softplus"
+}
